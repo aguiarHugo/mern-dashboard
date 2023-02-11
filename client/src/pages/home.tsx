@@ -42,11 +42,9 @@ const Home = () => {
         />
       </Box>
 
-      <Stack mt="25px" width="100%"
-      direction={{ xs: 'column', lg: 'row'}}>
+      <Stack mt="25px" width="100%" direction={{ xs: 'column', lg: 'row'}} gap={4}>
         <TotalRevenue />
         <PropertyReferrals />
-
       </Stack>
 
     </Box>
